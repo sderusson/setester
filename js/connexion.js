@@ -1,0 +1,4 @@
+$.validate({
+    modules : 'html5'
+});
+

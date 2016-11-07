@@ -1,0 +1,61 @@
+body {
+	background-color: white;
+	}
+
+.global, .login_container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	text-align: center;
+	position: relative;
+}
+
+.ligne_debat, .ligne_arg, .ligne_debat_prop{
+	--display: flex;
+	position: relative;
+    padding-bottom: 15px;
+}
+
+.boutons_debat, .boutons_vote {
+	--text-align:right;
+	--margin-left: 5px;
+	position: relative;
+    --padding-bottom: 15px;
+}
+
+li {
+	background-color: rgba(234, 77, 77, 0.16);
+	margin-bottom: 5px;
+	margin-right: 5px;
+	display: flex;
+	/*margin: auto;*/
+}
+
+#listDebats {
+	cursor: pointer;
+}
+
+h3 {
+	background-color: rgba(234, 77, 77, 0.35);
+	/* width: 60%; */
+	margin: auto;
+	margin-top: 20px;
+}
+
+#listArgs_ul {
+	position: relative;
+}
+
+#menu_ul {
+	display: inline-flex;
+	--text-align:right;
+}
+
+#menu_content {
+	width: 90%;
+	text-align: center;
+}
+
+#message {
+	color: red;
+}
